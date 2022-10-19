@@ -10,13 +10,13 @@ int main(void)
 {
 	int integerType;
 	float floatType;
-	longint longintegerType;
-	longlongint longlongintegerType;
+	long int longintegerType;
+	long long int longlongintegerType;
 	char charType;
 
 	printf("Size of int: %ld bytes\n", sizeof(integerType));
-	printf("Size of longint: %ld bytes\n", sizeof(longintegerType));
-	printf("Size of longlongint: %ld bytes\n", sizeof(longlongintegerType));
+	printf("Size of long int: %ld bytes\n", sizeof(longintegerType));
+	printf("Size of long long int: %ld bytes\n", sizeof(longlongintegerType));
 	printf("Size of float: %ld bytes\n", sizeof(floatType));
 	printf("Size of double: %ld bytes\n", sizeof(doubleType));
 	printf("Size of char: %ld byte\n", sizeof(charType));
