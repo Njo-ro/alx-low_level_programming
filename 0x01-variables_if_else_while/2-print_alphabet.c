@@ -2,7 +2,7 @@
 
 /* main - prog begins */
 
-int main(void)
+int main(void) /*beginning of prog */
 {
 	char ch = 'a';
 
