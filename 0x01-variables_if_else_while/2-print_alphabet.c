@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/*main - prog begins
-* return:0
-*/
+/* main - prog begins */
 
 int main(void)
 {
