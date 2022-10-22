@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/** main - prog begins to write alphabets
- * return: 0
- */
+/** 
+* main - prog begins to write alphabets
+* return: 0
+*/
 
 int main(void)
 {
