@@ -3,9 +3,7 @@
 #include <stdio.h>
 
 
-/* main - where program begins
- * return: 0
- */
+/*main - where program begins*/
 int main(void)
 {
 	int n;
