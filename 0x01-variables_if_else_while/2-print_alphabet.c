@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* main - prog begins */
+/**
+* main - prog begins
+* Return: 0
+*/
 
 int main(void) /*beginning of prog */
 {
