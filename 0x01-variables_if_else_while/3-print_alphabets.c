@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-/** main - prog begins */
+/** main - prog begins to write alphabets
+ * return: 0
+ */
 
-int main(void) /*beginning of prog */
+int main(void)
 {
-        char ch = 'a';
+	char ch = 'a';
+	for (ch = 'a'; ch <= 'z'; ch++)
+	putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	putchar(ch);
+	putchar('\n');
 
-        for (ch = 'a'; ch <= 'z'; ch++)
-        putchar(ch);
-
-        for (ch = 'A'; ch <= 'Z'; ch++)
-        putchar(ch);
-        putchar('\n');
-
-        return (0);
+	return (0);
 }
