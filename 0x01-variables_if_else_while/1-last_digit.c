@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-int main(void) /*program begins here */
+
+/* betty style doc for function main goes there */
+int main(void)
 {
 	int n;
 
@@ -18,7 +20,7 @@ int main(void) /*program begins here */
 {
 	printf("Last digit of %d is %d and is 0\n", n, n % 10);
 }
-	if (n % 10 < 6 || n != 0)
+	if (n % 10 < 6 && n % 10 != 0)
 {
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 }
