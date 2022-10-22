@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 
-/* betty style doc for function main goes there */
+/* main - where program begins
+ * return: 0
+ */
 int main(void)
 {
 	int n;
