@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-
-/*main - where program begins*/
+/**
+* main - where program begins
+* return: 0
+*/
 int main(void)
 {
 	int n;
