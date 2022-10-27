@@ -1,14 +1,13 @@
-void print_alphabet(void);
-{
-	char ch = 'a';
+#include "main.h"
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
-	putchar('\n');
-}
-
-int main()
+/**
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ */
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	_putchar(letter);
+	_putchar('\n');
 }
